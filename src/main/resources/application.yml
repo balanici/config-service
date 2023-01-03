@@ -5,6 +5,9 @@ spring:
         git:
           uri: https://github.com/balanici/config-repo
           default-label: master
+          clone-on-start: true
+          force-pull: true
+          timeout: 5
   application:
     name: config-service
 
