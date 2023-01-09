@@ -12,7 +12,7 @@ spring:
     name: config-service
 
 server:
-  port: 8888
+  port: 9999
   tomcat:
     connection-timeout: 2s
     keep-alive-timeout: 15s
