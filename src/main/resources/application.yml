@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: config-service
   cloud:
     config:
       server:
@@ -8,8 +10,6 @@ spring:
           clone-on-start: true
           force-pull: true
           timeout: 5
-  application:
-    name: config-service
 
 server:
   port: 9999
